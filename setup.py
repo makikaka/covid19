@@ -29,7 +29,7 @@ setup(
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: Vasil and the gang',
+        'Intended Audience :: Developers', 
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: Do What The F*ck You Want To Public License',
         'Programming Language :: Python :: 3.6',
