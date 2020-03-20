@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name="covid19",
     packages=['covid19'],
-    version='0.1',
+    version='0.3',
     license='wtfpl',
     description='covid19 timely stats',
     author='makikaka',
     author_email="mladen.tasevski@gmail.com",
     url='https://github.com/makikaka/covid19',
-    download_url='https://github.com/makikaka/covid19/archive/v_01.tar.gz',
+    download_url='https://github.com/makikaka/covid19/archive/v_03.tar.gz',
     keywords=['covid19', 'http', 'sqlite'],
     install_requires=[
         'sys',
