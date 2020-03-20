@@ -1,0 +1,37 @@
+from distutils.core import setup
+
+setup(
+    name="covid19",
+    packages=['covid19'],
+    version='0.1',
+    license='wtfpl',
+    description='covid19 timely stats',
+    author='makikaka',
+    author_email="mladen.tasevski@gmail.com",
+    url='https://github.com/makikaka/covid19',
+    download_url='https://github.com/makikaka/covid19/archive/v_01.tar.gz',
+    keywords=['covid19', 'http', 'sqlite'],
+    install_requires=[
+        'sys',
+        'http.server',
+        'os',
+        'utils',
+        'logging',
+        'datetime',
+        'python-memcached',
+        'config-parser',
+        'sys',
+        'sqlite3',
+        'json',
+        'requests',
+        're',
+        'bs4',
+    ],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Vasil and the gang',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: Do What The F*ck You Want To Public License',
+        'Programming Language :: Python :: 3.6',
+    ],
+)
